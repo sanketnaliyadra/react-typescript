@@ -28,6 +28,7 @@ const App = () => {
   ]
   return (
     <div>
+      <h1>hello</h1>
       <Profile name='john' count={23}/>
       <Person data={personData}/>
       <PersonList personList={personList}/>
