@@ -5,6 +5,7 @@ import PersonList from './components/PersonList'
 import Status from './components/Status'
 import Button from './components/Button'
 import Container from './components/Container'
+import LoggedIn from './components/LoggedIn'
 
 const App = () => {
   const personData = {
@@ -35,6 +36,7 @@ const App = () => {
       <Status status='errors'/>
       <Button handleClick={() => alert("hey folks")}/>
       <Container style={{border: '1px solid black', padding: '1rem'}}/>
+      <LoggedIn/>
     </div>
   )
 }
